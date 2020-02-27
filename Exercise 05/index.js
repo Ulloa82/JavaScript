@@ -5,7 +5,7 @@ if (hour<0 || hour>23){
 else if (hour<8 || hour>=18) {
     alert('Not office Hour')
 }
-else if (hour>=8 && hour<18){
+else {
     alert('Office hours')
 }   
 
