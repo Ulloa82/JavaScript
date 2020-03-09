@@ -15,6 +15,7 @@ console.log(siblings.concat(parents));
 siblings.push("Iron");
 console.log(siblings);
 siblings.reverse();
+siblings.reverse();
 console.log(siblings);
 // console.log(parents[1]);
 console.log;
