@@ -23,10 +23,8 @@ function calculateFibonacci() {
     return fibonacciSequence;
   }
   for (let i = 0; i < maxCalculations; i++) {
-    let lastIndex = fibonacciSequence.length - 1; //1
-    let secondLastIndex = fibonacciSequence.length - 2; //0
-    let lastValue = fibonacciSequence[lastIndex];
-    let secondLastValue = fibonacciSequence[secondLastIndex];
+    let lastValue = fibonacciSequence[fibonacciSequence.length - 1];
+    let secondLastValue = fibonacciSequence[fibonacciSequence.length - 2];
     let result = lastValue + secondLastValue;
     fibonacciSequence.push(result);
   }
